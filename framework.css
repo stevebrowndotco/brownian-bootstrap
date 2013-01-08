@@ -371,7 +371,7 @@ td {
   
   }
   @page  {
-    margin: 0;
+    margin: 0.5cm;
   }
   p,
   h2,
@@ -930,6 +930,7 @@ Note, this says it can be used with Twitter Bootstrap so I have added it in with
  *			}
  *
  */
+/* Filters */
 /* =Loader
 ==================================*/
 .loader {
@@ -987,7 +988,7 @@ section.main-section .main-section-inner {
   background-image: -webkit-linear-gradient(top, #ffffff 0%, #f8f8f8 100%);
   background-image: -o-linear-gradient(top, #ffffff 0%, #f8f8f8 100%);
   background-image: linear-gradient(to bottom, #ffffff 0%, #f8f8f8 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@color1', endColorstr='@color2', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= #ffffff , endColorstr= #f8f8f8 );
   -webkit-border-radius: 0 0 3px 3px;
   -moz-border-radius: 0 0 3px 3px;
   border-radius: 0 0 3px 3px;
@@ -1726,7 +1727,7 @@ a.text:hover {
   background-image: -webkit-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
   background-image: -o-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
   background-image: linear-gradient(to bottom, #ffffff 0%, #e6e6e6 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@color1', endColorstr='@color2', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= #ffffff , endColorstr= #e6e6e6 );
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -1756,7 +1757,7 @@ a.text:hover {
   background-image: -webkit-linear-gradient(top, #ffffff 0%, #d9d9d9 100%);
   background-image: -o-linear-gradient(top, #ffffff 0%, #d9d9d9 100%);
   background-image: linear-gradient(to bottom, #ffffff 0%, #d9d9d9 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@color1', endColorstr='@color2', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= #ffffff , endColorstr= #d9d9d9 );
   color: inherit;
   text-decoration: none;
   cursor: pointer;
@@ -1827,7 +1828,7 @@ button[disabled]:hover,
   background-image: -webkit-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
   background-image: -o-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
   background-image: linear-gradient(to bottom, #eeeeee 0%, #cccccc 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@color1', endColorstr='@color2', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= #eeeeee , endColorstr= #cccccc );
   filter: alpha(opacity=40);
   opacity: 0.4;
   filter: alpha(opacity= 40 );
@@ -1853,7 +1854,7 @@ button[disabled] .span {
   background-image: -webkit-linear-gradient(top, #7fbf4d 0%, #63a62f 100%);
   background-image: -o-linear-gradient(top, #7fbf4d 0%, #63a62f 100%);
   background-image: linear-gradient(to bottom, #7fbf4d 0%, #63a62f 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@color1', endColorstr='@color2', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= #7fbf4d , endColorstr= #63a62f );
   border: 1px solid #63A62F;
   border-bottom: 1px solid #5B992B;
   color: white !important;
@@ -1866,7 +1867,7 @@ button[disabled] .span {
   background-image: -webkit-linear-gradient(top, #76b347 0%, #5e9e2e 100%);
   background-image: -o-linear-gradient(top, #76b347 0%, #5e9e2e 100%);
   background-image: linear-gradient(to bottom, #76b347 0%, #5e9e2e 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@color1', endColorstr='@color2', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= #76b347 , endColorstr= #5e9e2e );
   cursor: pointer;
   color: white;
   box-shadow: 0 0 6px #76B347;
@@ -1883,7 +1884,7 @@ button[disabled] .span {
   background-image: -webkit-linear-gradient(top, #ff4660 0%, #e84a5a 100%);
   background-image: -o-linear-gradient(top, #ff4660 0%, #e84a5a 100%);
   background-image: linear-gradient(to bottom, #ff4660 0%, #e84a5a 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@color1', endColorstr='@color2', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= #ff4660 , endColorstr= #e84a5a );
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -1901,7 +1902,7 @@ button[disabled] .span {
   background-image: -webkit-linear-gradient(top, #f24159 0%, #db4655 100%);
   background-image: -o-linear-gradient(top, #f24159 0%, #db4655 100%);
   background-image: linear-gradient(to bottom, #f24159 0%, #db4655 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@color1', endColorstr='@color2', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= #f24159 , endColorstr= #db4655 );
   box-shadow: 0 0 6px #ff4660;
   color: white;
 }
@@ -1911,7 +1912,7 @@ button[disabled] .span {
   background-image: -webkit-linear-gradient(top, #cf394e 0%, #cf4250 100%);
   background-image: -o-linear-gradient(top, #cf394e 0%, #cf4250 100%);
   background-image: linear-gradient(to bottom, #cf394e 0%, #cf4250 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@color1', endColorstr='@color2', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= #cf394e , endColorstr= #cf4250 );
   color: white;
 }
 /* Blue Button */
@@ -1921,7 +1922,7 @@ button[disabled] .span {
   background-image: -webkit-linear-gradient(top, #5bc0de 0%, #2f96b4 100%);
   background-image: -o-linear-gradient(top, #5bc0de 0%, #2f96b4 100%);
   background-image: linear-gradient(to bottom, #5bc0de 0%, #2f96b4 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@color1', endColorstr='@color2', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= #5bc0de , endColorstr= #2f96b4 );
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -1939,7 +1940,7 @@ button[disabled] .span {
   background-image: -webkit-linear-gradient(top, #2f96b4 0%, #2f96b4 100%);
   background-image: -o-linear-gradient(top, #2f96b4 0%, #2f96b4 100%);
   background-image: linear-gradient(to bottom, #2f96b4 0%, #2f96b4 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@color1', endColorstr='@color2', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= #2f96b4 , endColorstr= #2f96b4 );
   box-shadow: 0 0 2px black;
   color: white !important;
 }
@@ -1949,7 +1950,7 @@ button[disabled] .span {
   background-image: -webkit-linear-gradient(top, #2f96b4 0%, #2f96b4 100%);
   background-image: -o-linear-gradient(top, #2f96b4 0%, #2f96b4 100%);
   background-image: linear-gradient(to bottom, #2f96b4 0%, #2f96b4 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@color1', endColorstr='@color2', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= #2f96b4 , endColorstr= #2f96b4 );
   color: white;
 }
 /* Pink Button */
@@ -1959,7 +1960,7 @@ button[disabled] .span {
   background-image: -webkit-linear-gradient(top, #b83654 0%, #600e27 100%);
   background-image: -o-linear-gradient(top, #b83654 0%, #600e27 100%);
   background-image: linear-gradient(to bottom, #b83654 0%, #600e27 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@color1', endColorstr='@color2', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= #b83654 , endColorstr= #600e27 );
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -1977,7 +1978,7 @@ button[disabled] .span {
   background-image: -webkit-linear-gradient(top, #fa688e 0%, #fa9fb7 100%);
   background-image: -o-linear-gradient(top, #fa688e 0%, #fa9fb7 100%);
   background-image: linear-gradient(to bottom, #fa688e 0%, #fa9fb7 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@color1', endColorstr='@color2', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= #fa688e , endColorstr= #fa9fb7 );
   box-shadow: 0 0 2px black;
   color: white !important;
 }
@@ -2241,12 +2242,10 @@ button[disabled] .span {
   background: url("/design/images/big-sprite.png") -120px 0;
 }
 .post-icon {
-  background: url("/design/images/big-sprite.png") -14 0px 0;
+  background: url("/design/images/big-sprite.png") -140px 0;
 }
 .client-icon {
-  background: url("/design/images/icons-sprite.png") -213px -251px;
-  width: 25px;
-  height: 15px;
+  background: url("/design/images/big-sprite.png") -220px 0;
 }
 .column-icon {
   background: url("/design/images/big-sprite.png") -160px 0;
@@ -2269,6 +2268,11 @@ button[disabled] .span {
 .postit-deactivated-icon {
   background: url("/design/images/icons-sprite.png") -9px -432px;
   margin: 2px 0 0 0 !important;
+}
+.client-icon-button {
+  background: url("/design/images/icons-sprite.png") -213px -251px;
+  width: 25px;
+  height: 15px;
 }
 /* =Sets
 ==================================*/
@@ -2832,5 +2836,11 @@ Taken from Twitter bootstrap but made to work with fixed AND fluid. ~Steve
   .ipad-portrait-width-show {
     display: block !important;
   }
+}
+.print-alignt-left {
+  float: left;
+}
+.print-align-right {
+  float: right;
 }
 /* Libraries */
